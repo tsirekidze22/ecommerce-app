@@ -332,6 +332,8 @@ span.text-red {
   overflow: auto;
   max-height: 70vh;
   padding: 20px 10px;
+  max-height: calc(100vh - 400px);
+  overflow-y: scroll;
 }
 .product {
   display: flex;
@@ -379,6 +381,21 @@ span.text-red {
   right: 5px;
   width: 100%;
   padding: 30px 65px;
+}
+
+.about-payment {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.4;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #f1f1f1;
+  color: rgb(35, 35, 35);
+}
+
+.cart-bottom span {
+  font-weight: 500;
 }
 
 .btn-container {

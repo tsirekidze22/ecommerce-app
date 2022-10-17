@@ -122,6 +122,13 @@ const Cart = () => {
         </div>
         {cartItems.length > 0 && (
           <div className="cart-bottom">
+            <div className="about-payment">
+              The payment method is in test mode, so you should not worry about
+              actually paying for anything. The card information because of that
+              must be: Card number - <span> 4242 4242 4242 4242</span>. MM / YY
+              - <span>04 / 24</span>. CVC - <span> 424</span>. Or simply write
+              <span> 42</span> in every field.
+            </div>
             <div className="total">
               <h3>Subtotal</h3>
               <h3>${totalPrice.toFixed(2)}</h3>
